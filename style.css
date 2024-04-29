@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+canavs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+nav {
+  display: flex;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  justify-content: space-around;
+  z-index: 2;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  margin-top: 10px;
+}
+
+img {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  z-index: 2;
+  height: 2.5rem;
+  transform: translate(-50%, 100%);
+  cursor: pointer;
+}
